@@ -13,9 +13,9 @@ public class summArrNoOtrits {
 
             for(int i = 0;i<array.length;i++){
                 if(array[i]<0){
-                    negative.add(array[i]); // Add negative number
+                    negative.add(array[i]); 
                 }else{
-                    positive.add(array[i]); // Add positive number
+                    positive.add(array[i]); 
                 }
             }
             int sum =0;
